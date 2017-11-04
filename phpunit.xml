@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit 
+  beStrictAboutOutputDuringTests="true"
+  beStrictAboutTestsThatDoNotTestAnything="true"
+  colors="true"
+  bootstrap="tests/phpunit/bootstrap.php"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+>
+  <php>
+    <xi:include href="php-names.xml">
+      <xi:fallback>
+        <const name="PHP_NAMES" value="php"/>
+      </xi:fallback>
+    </xi:include>
+  </php>
+  <testsuites>
+    <testsuite name="suite1">
+      <directory>tests/phpunit/tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
