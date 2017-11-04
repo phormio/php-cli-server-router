@@ -21,4 +21,5 @@ writing, the software has only been tested on Unix.
 
 INSTALLATION
 
-Install from Packagist or just clone the Git repository.
+Install with Composer (the package name is phormio/cli-server-router) or
+just clone the repository.
