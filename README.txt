@@ -22,8 +22,3 @@ writing, the software has only been tested on Unix.
 INSTALLATION
 
 Install from Packagist or just clone the Git repository.
-
-NOTES
-
-A PHP file is treated correctly, whether it was requested explicitly or
-found by PHP as a directory index.
