@@ -1,7 +1,7 @@
 INTRODUCTION
 
 This package provides a basic router for the PHP CLI web server.  You might
-run it as follows:
+use it as follows:
 
   php -S localhost:8000 src/router.php
 
