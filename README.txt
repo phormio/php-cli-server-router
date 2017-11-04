@@ -19,6 +19,10 @@ OPERATING SYSTEMS
 The router should work on all OSes supported by PHP.  However, at time of
 writing, the software has only been tested on Unix.
 
+INSTALLATION
+
+Install from Packagist or just clone the Git repository.
+
 NOTES
 
 A PHP file is treated correctly, whether it was requested explicitly or
